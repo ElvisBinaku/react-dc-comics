@@ -155,10 +155,12 @@ const comics = [
 
 const ComicsList = () => {
   return (
-    <section className="my-bg-black">
-      <h2 className="text-white bg-primary d-inline-block p-1">
-        CURRENT SERIES
-      </h2>
+    <section id="comic-list" className="my-bg-black position-relative">
+      <span id="title-series">
+        <h4 className="text-white fw-bolder bg-primary d-inline-block px-3 py-2">
+          COMICS
+        </h4>
+      </span>
       <div className="container justify-content-center comics-wrapper">
         {comics.map((comic) => (
           <div className="comic-card " key={comic.id}>
