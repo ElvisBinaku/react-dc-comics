@@ -1,3 +1,4 @@
+import ButtonLoadMore from '../buttons/ButtonLoadMore.jsx'
 const comics = [
   {
     id: 1,
@@ -155,7 +156,7 @@ const comics = [
 
 const ComicsList = () => {
   return (
-    <section id="comic-list" className="my-bg-black position-relative">
+    <section id="comic-list" className="my-bg-black position-relative pb-4">
       <span id="title-series">
         <h4 className="text-white fw-bolder bg-primary d-inline-block px-3 py-2">
           COMICS
@@ -169,7 +170,7 @@ const ComicsList = () => {
           </div>
         ))}
       </div>
-
+      <ButtonLoadMore />
     </section>
   )
 }

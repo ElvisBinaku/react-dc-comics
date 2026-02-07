@@ -11,6 +11,12 @@ body {
 
 }
 
+/* buttons */
+#btn-load-more {
+    margin: auto;
+    display: block;
+}
+
 /*header*/
 #main-logo img {
     width: 3rem;
