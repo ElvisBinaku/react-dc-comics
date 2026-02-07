@@ -1,0 +1,58 @@
+body {
+    font-family: Open sans;
+}
+
+/*jumbotron*/
+#jumbotron {
+    background-image: url(src/assets/img/jumbotron.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 25rem;
+
+}
+
+/*header*/
+#main-logo img {
+    width: 3rem;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* comic */
+.comics-wrapper {
+    display: flex;
+    flex-basis: 25%;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.my-bg-black {
+    background-color: black;
+}
+
+.comic-card img {
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+    aspect-ratio: 1;
+    border-radius: .5rem;
+}
+
+.comic-card img:hover {
+    border: 2px solid white;
+}
+
+.comic-card {
+    width: 13%;
+    margin: 1rem;
+}
+
+.comic-card h3,
+#navbar ul li {
+    font-size: .75em;
+}
