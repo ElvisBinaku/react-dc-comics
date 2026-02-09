@@ -14,12 +14,11 @@ const Navbar = () => {
 
     const linksList = links.map((link) => {
         return (
-            <li key={link.id} className="ps-3  fw-bolder">
-                <a href={link.url} className="">
+            <li key={link.id} className={link.current ? 'active' : ''}>
+                <a href={link.url} className="px-2 fw-bolder">
                     {link.text}
                 </a>
-
-            </li>
+            </li >
         )
 
     });

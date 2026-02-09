@@ -27,6 +27,10 @@ body {
     color: inherit;
 }
 
+#navbar ul li.active {
+    border-bottom: 4px solid blue;
+}
+
 
 /* comic */
 #comic-list {
