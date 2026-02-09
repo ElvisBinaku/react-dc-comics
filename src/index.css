@@ -61,16 +61,35 @@ body {
     border-radius: .5rem;
 }
 
+/* CARD */
+
 .comic-card img:hover {
     border: 2px solid white;
 }
 
 .comic-card {
     width: 10rem;
-    margin: 1rem;
+    margin: 1rem .7rem;
 }
 
 .comic-card h3,
 #navbar ul li {
     font-size: .75em;
+}
+
+/*LINKBAR*/
+#links-bar {
+    height: 100px;
+    background-color: rgb(0, 132, 255);
+}
+
+/*FOOTER*/
+#main-footer {
+    height: 250px;
+    background-image: url(assets/img/footer-bg.jpg);
+}
+
+#footer-bottom {
+    height: 80px;
+    background-color: gray;
 }

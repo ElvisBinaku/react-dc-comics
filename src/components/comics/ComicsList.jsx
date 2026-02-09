@@ -164,7 +164,7 @@ const ComicsList = () => {
       </span>
       <div className="container justify-content-center comics-wrapper">
         {comics.map((comic) => (
-          <div className="comic-card " key={comic.id}>
+          <div className="comic-card px-2" key={comic.id}>
             <img src={comic.thumb} alt={comic.description} />
             <h3 className="mt-2 text-white">{comic.title.toUpperCase()}</h3>
           </div>
