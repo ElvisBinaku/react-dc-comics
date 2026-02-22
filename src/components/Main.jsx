@@ -1,4 +1,4 @@
-import ComicsList from "./comics/ComicsList"
+import ProductsList from "./Products/ProductsList"
 
 
 const comic = [
@@ -159,7 +159,7 @@ const comic = [
 export default function Main() {
     return (
         <main>
-            <ComicsList titolo="COMICS" dati={comic} />
+            <ProductsList titolo="COMICS" dati={comic} />
         </main>
     )
 }

@@ -1,7 +1,7 @@
 import ButtonLoadMore from '../buttons/ButtonLoadMore.jsx'
 import Card from './Card.jsx'
 
-const ComicsList = (props) => {
+const ProductsList = (props) => {
   return (
     <section id="comic-list" className="my-bg-black position-relative pb-4">
       <span id="title-series">
@@ -15,4 +15,4 @@ const ComicsList = (props) => {
   )
 }
 
-export default ComicsList
+export default ProductsList
